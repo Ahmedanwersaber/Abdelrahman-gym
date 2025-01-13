@@ -1,28 +1,28 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="ar" >
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="MFitness reponsive webite build using HTML5, CSS3 and Javascript The complete layout of the page is build using grid layout and flexbox with some cool animations."
+      content="موقع MFitness مخصص للتدريب الرياضي باستخدام HTML5 وCSS3 وجافا سكربت. تم بناء تخطيط الصفحة باستخدام شبكات وجافا سكربت مع بعض الرسوم المتحركة الرائعة."
     />
     <title>MFitness</title>
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/logo.png" />
     <link rel="stylesheet" href="fonts/stylesheet.css" media="screen" />
     <link rel="stylesheet" href="css/style.css" media="screen" />
   </head>
   <body>
     <!-- HEADER -->
-    <header class="header" id="home">
+    <header class="header" id="home" dir="rtl">
       <div class="container">
         <nav class="header-navigation" aria-label="navigation">
           <div class="logo"><span class="yellow">M</span>Fitness</div>
 
           <img
             src="img/nav-icon.svg"
-            alt="navigation icon"
+            alt="رمز التنقل"
             class="nav-icon"
             width="30"
             height="30"
@@ -30,19 +30,19 @@
 
           <ul>
             <li>
-              <a href="#">Home</a>
+              <a href="#">الرئيسية</a>
             </li>
             <li>
-              <a href="#about">About</a>
+              <a href="#about">من نحن</a>
             </li>
             <li>
-              <a href="#courses">Courses</a>
+              <a href="#courses">الدورات</a>
             </li>
             <li>
-              <a href="#trainers">Trainers</a>
+              <a href="#trainers">المدربون</a>
             </li>
             <li>
-              <a href="#contact">Contact</a>
+              <a href="#contact">اتصل بنا</a>
             </li>
           </ul>
         </nav>
@@ -55,18 +55,19 @@
         <div class="container hero-box">
           <div class="hero-content margin-bottom">
             <h1 class="heading heading--1 margin-bottom">
-              A place for your fitness goals
+              مكان لتحقيق أهداف لياقتك البدنية
             </h1>
             <p class="description">
-              We Offer Functional Training, Plyometric Boxes, Aerobics classes,
-              TRX And Much More
+              نقدم لك تدريبات وظيفية، صناديق بليومتريكية، دروس أكروبات، 
+              وتدريبات TRX والكثير من الخدمات الأخرى
             </p>
           </div>
           <div class="btn-group">
-            <button class="btn btn__primary margin-right margin-bottom">
-              Join us
-            </button>
-            <button class="btn btn__secondary">Our services</button>
+            <a href="https://wa.me/01020787538?text=Hello%2C%20I%20need%20more%20information%21" target="_blank"><button class="btn btn__primary margin-right margin-bottom">
+              انضم إلينا
+            </button></a>
+            
+            <button class="btn btn__secondary">خدماتنا</button>
           </div>
         </div>
       </section>
@@ -76,35 +77,34 @@
         <div class="about-box container">
           <div class="about-box__content" data-aos="fade-up">
             <h2 class="heading heading--2">
-              About <span class="yellow">M</span>Fitness
+              من نحن  <span class="yellow">M</span>Fitness
             </h2>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam
-              dolor perferendis repellat ipsam fugiat dolorum possimus, modi ut
-              est saepe tempora earum. Consectetur blanditiis voluptatibus,
-              molestias explicabo tempora quae facilis.
+              نحن نقدم تدريبات رياضية متخصصة تهدف إلى تعزيز لياقتك البدنية بشكل شامل. 
+              مع مجموعة متنوعة من الأنشطة الرياضية التي تناسب جميع المستويات.
             </p>
-            <a href="#" class="link-button">Read More &rarr;</a>
+            <a href="#" class="link-button">قراءة المزيد &rarr;</a>
           </div>
           <figure class="about-box__image" data-aos="fade-up">
             <img
-              src="img/about-img-1.jpg"
-              alt="about-image-one"
+              src="img/coache-1.jpg"
+              alt="صورة حول MFitness"
               width="350"
               height="233"
             />
             <img
-              src="img/about-img-2.jpg"
-              alt="about-image-twwo"
+              src="img/coache-3.jpg"
+              alt="صورة حول MFitness"
               width="350"
               height="233"
             />
             <img
-              src="img/about-img-3.jpg"
-              alt="about-image-three"
+              src="img/coache-2.jpg"
+              alt="صورة حول MFitness"
               width="420"
               height="280"
             />
+            
           </figure>
         </div>
       </section>
@@ -113,11 +113,10 @@
       <section class="section-courses" id="courses">
         <div class="container courses-box" data-aos="fade-up">
           <header class="courses-heading">
-            <h2 class="heading heading--2 underline">Our Courses</h2>
+            <h2 class="heading heading--2 underline">دوراتنا</h2>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit
-              ducimus illum corporis magni voluptas, ex eum dolorum quia
-              officia! Deleniti quia ut.
+              نقدم لك مجموعة من الدورات التدريبية المتنوعة التي تهدف إلى 
+              تطوير مهاراتك البدنية بشكل متكامل. اكتشف الدورات المتاحة لدينا.
             </p>
           </header>
 
@@ -125,8 +124,8 @@
             <div class="class-card">
               <img
                 class="class-card__img"
-                src="./img/courses-bodybuilding.jpg"
-                alt="body building course"
+                src="./img/gallery-3.jpg"
+                alt="دورة بناء الأجسام"
                 width="550"
                 height="550"
               />
@@ -134,43 +133,43 @@
               <div class="class-card__overlay">
                 <div class="text">
                   <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Ratione culpa
+                    دورة متخصصة لبناء العضلات، وتعزيز القوة البدنية من خلال 
+                    تمارين معتمدة وموجهة.
                   </p>
 
-                  <a href="#" class="link-button">Read More &rarr;</a>
+                  <a href="#" class="link-button">قراءة المزيد &rarr;</a>
                 </div>
               </div>
 
-              <div class="class-card__title">Body Building</div>
+              <div class="class-card__title">بناء الأجسام</div>
             </div>
 
             <div class="class-card">
               <img
                 class="class-card__img"
                 src="./img/courses-crossfit.jpg"
-                alt="cross fit course"
+                alt="دورة كروس فيت"
                 width="550"
                 height="550"
               />
               <div class="class-card__overlay">
                 <div class="text">
                   <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Ratione culpa
+                    دورة كروس فيت تهدف إلى تحسين اللياقة البدنية بشكل شامل 
+                    مع تمارين تجمع بين القوة والسرعة.
                   </p>
 
-                  <a href="#" class="link-button">Read More &rarr;</a>
+                  <a href="#" class="link-button">قراءة المزيد &rarr;</a>
                 </div>
               </div>
-              <div class="class-card__title">Cross Fit</div>
+              <div class="class-card__title">كروس فيت</div>
             </div>
 
             <div class="class-card">
               <img
                 class="class-card__img"
-                src="./img/courses-gymnastic.jpg"
-                alt="gymnastic course"
+                src="./img/coache-4.jpg"
+                alt="دورة الجمباز"
                 width="550"
                 height="550"
               />
@@ -178,54 +177,54 @@
               <div class="class-card__overlay">
                 <div class="text">
                   <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Ratione culpa
+                    تعلم الحركات الرياضية المتقدمة باستخدام تقنيات الجمباز 
+                    لتحسين اللياقة والمرونة.
                   </p>
 
-                  <a href="#" class="link-button">Read More &rarr;</a>
+                  <a href="#" class="link-button">قراءة المزيد &rarr;</a>
                 </div>
               </div>
 
-              <div class="class-card__title">Gymnastic</div>
+              <div class="class-card__title">الجمباز</div>
             </div>
 
             <div class="class-card">
               <img
                 class="class-card__img"
                 src="./img/courses-fitness.jpg"
-                alt="fitness course"
+                alt="دورة لياقة بدنية"
                 width="550"
                 height="550"
               />
               <div class="class-card__overlay">
                 <div class="text">
                   <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Ratione culpa
+                    دورة شاملة لتحسين لياقتك البدنية مع تمارين متنوعة 
+                    لتحسين القوة والتحمل.
                   </p>
 
-                  <a href="#" class="link-button">Read More &rarr;</a>
+                  <a href="#" class="link-button">قراءة المزيد &rarr;</a>
                 </div>
               </div>
-              <div class="class-card__title">Fitness</div>
+              <div class="class-card__title">اللياقة البدنية</div>
             </div>
 
             <div class="class-card">
               <img
                 class="class-card__img"
-                src="./img/courses-TRX.jpg"
-                alt="fitness course"
+                src="./img/class-4.jpg"
+                alt="دورة TRX"
                 width="550"
                 height="550"
               />
               <div class="class-card__overlay">
                 <div class="text">
                   <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Ratione culpa
+                    دورة TRX التي تعتمد على تدريب القوة باستخدام الأشرطة 
+                    لتطوير القوة والمرونة.
                   </p>
 
-                  <a href="#" class="link-button">Read More &rarr;</a>
+                  <a href="#" class="link-button">قراءة المزيد &rarr;</a>
                 </div>
               </div>
               <div class="class-card__title">TRX</div>
@@ -234,22 +233,22 @@
             <div class="class-card">
               <img
                 class="class-card__img"
-                src="./img/courses-boxing.jpg"
-                alt="fitness course"
+                src="./img/coache-3.jpg"
+                alt="دورة الملاكمة"
                 width="550"
                 height="550"
               />
               <div class="class-card__overlay">
                 <div class="text">
                   <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Ratione culpa
+                    تعلم أساسيات الملاكمة واكتساب القوة والتحمل من خلال 
+                    التدريبات المكثفة.
                   </p>
 
-                  <a href="#" class="link-button">Read More &rarr;</a>
+                  <a href="#" class="link-button">قراءة المزيد &rarr;</a>
                 </div>
               </div>
-              <div class="class-card__title">Boxing</div>
+              <div class="class-card__title">الملاكمة</div>
             </div>
           </article>
         </div>
@@ -260,14 +259,13 @@
         <div class="offer-box">
           <div class="offer" data-aos="fade-up">
             <h2 class="heading heading--2 margin-bottom">
-              Special offer this summer get full Benefits for year with 20%
-              discount.
+              عرض خاص هذا الصيف! احصل على مزايا الاشتراك لمدة عام مع خصم 20%.
             </h2>
             <p class="margin-bottom">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Consectetur exercitationem amet quas repellendus esse natus.
+              اغتنم الفرصة الآن واستمتع بخصم كبير على العضوية السنوية 
+              مع جميع المزايا التي نقدمها.
             </p>
-            <button class="btn btn__primary">Become a member</button>
+            <button class="btn btn__primary">كن عضوًا</button>
           </div>
 
           <div class="offer-img"></div>
@@ -279,149 +277,57 @@
         <div class="container coaches-box" data-aos="fade-up">
           <header class="coache-heading">
             <h2 class="heading heading--2 underline margin-bottom">
-              OUR FITNESS COACHES
+              منتجاتنا 
             </h2>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit
-              ducimus illum corporis magni voluptas, ex eum dolorum quia
-              officia! Deleniti quia ut.
+              منتجاتنا للمحترفين نقدم لك المنتج الأمثل لمساعدتك 
+              في تحقيق أهدافك الرياضية.
             </p>
           </header>
 
           <article class="coache-content">
             <div class="c-card">
               <img
-                src="img/coache-1.jpg"
-                alt="coache one"
+                src="img/supplements/2.jpg"
+                alt="مدرب 1"
                 class="c-card__img"
                 width="550"
                 height="550"
               />
-
-              <div class="overlay">
-                <img
-                  src="./img/logo-whatsapp.svg"
-                  alt="whatsapp-icon"
-                  width="30"
-                  height="30"
-                />
-
-                <img
-                  src="./img/logo-facebook.svg"
-                  alt="facebook-icon"
-                  width="30"
-                  height="30"
-                />
-
-                <img
-                  src="./img/logo-instagram.svg"
-                  alt="instagram-icon"
-                  width="30"
-                  height="30"
-                />
-
-                <img
-                  src="./img/logo-twitter.svg"
-                  alt="twitter-icon"
-                  width="30"
-                  height="30"
-                />
-              </div>
-
               <div class="c-card__content">
-                <p class="c-name">MARK BERTUL</p>
-                <p class="c-title">Body Building</p>
+                <p class="c-name">مارك بيرتول</p>
+                <p class="c-title">بناء الأجسام</p>
               </div>
             </div>
 
             <div class="c-card">
               <img
-                src="img/coache-2.jpg"
-                alt="coache one"
+                src="img/supplements/5.jpg"
+                alt="مدرب 2"
                 class="c-card__img"
                 width="550"
                 height="550"
               />
-
-              <div class="overlay">
-                <img
-                  src="./img/logo-whatsapp.svg"
-                  alt="whatsapp-icon"
-                  width="30"
-                  height="30"
-                />
-
-                <img
-                  src="./img/logo-facebook.svg"
-                  alt="facebook-icon"
-                  width="30"
-                  height="30"
-                />
-
-                <img
-                  src="./img/logo-instagram.svg"
-                  alt="instagram-icon"
-                  width="30"
-                  height="30"
-                />
-
-                <img
-                  src="./img/logo-twitter.svg"
-                  alt="twitter-icon"
-                  width="30"
-                  height="30"
-                />
-              </div>
-
               <div class="c-card__content">
-                <p class="c-name">serio mike</p>
-                <p class="c-title">Cardio Expert</p>
+                <p class="c-name">سيريو مايك</p>
+                <p class="c-title">خبير الكارديو</p>
               </div>
             </div>
 
             <div class="c-card">
               <img
-                src="img/coache-3.jpg"
-                alt="coache three"
+                src="img/supplements/1.jpg"
+                alt="مدرب 3"
                 class="c-card__img"
                 width="550"
                 height="550"
               />
-              <div class="overlay">
-                <img
-                  src="./img/logo-whatsapp.svg"
-                  alt="whatsapp-icon"
-                  width="30"
-                  height="30"
-                />
-
-                <img
-                  src="./img/logo-facebook.svg"
-                  alt="facebook-icon"
-                  width="30"
-                  height="30"
-                />
-
-                <img
-                  src="./img/logo-instagram.svg"
-                  alt="instagram-icon"
-                  width="30"
-                  height="30"
-                />
-
-                <img
-                  src="./img/logo-twitter.svg"
-                  alt="twitter-icon"
-                  width="30"
-                  height="30"
-                />
-              </div>
-
               <div class="c-card__content">
-                <p class="c-name">SVEN MIEKE</p>
-                <p class="c-title">Fitness Coach</p>
+                <p class="c-name">سفين ميكي</p>
+                <p class="c-title">مدرب لياقة بدنية</p>
               </div>
             </div>
+            
           </article>
         </div>
       </section>
@@ -430,41 +336,41 @@
       <section class="section-review" id="review">
         <div class="review-box container" data-aos="fade-up">
           <h2 class="heading heading--2 underline margin-bottom grid-center">
-            what people say
+            آراء الناس
           </h2>
 
           <div class="review-card">
             <img
               src="img/review-img-1.jpg"
-              alt="user"
+              alt="مراجع"
               class="review-card__image"
               width="100"
               height="100"
             />
             <blockquote class="review-card__content">
               <p class="text">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Sapiente possimus aperiam
+                لقد ساعدتني هذه الدورة على تحسين لياقتي البدنية بشكل كبير. 
+                التدريب كان ممتازاً!
               </p>
 
-              <div class="name">Cesar Rincon</div>
+              <div class="name">احمد انور</div>
             </blockquote>
           </div>
 
           <div class="review-card">
             <img
               src="img/review-img-2.jpg"
-              alt="user"
+              alt="مراجع"
               class="review-card__image"
               width="100"
               height="100"
             />
             <blockquote class="review-card__content">
               <p class="text">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Sapiente possimus aperiam
+                تجربة رائعة في صالة الألعاب الرياضية. كل شيء كان منظمًا 
+                والأجواء رائعة.
               </p>
-              <div class="name">Mathilde Langevin</div>
+              <div class="name"> ميرنا خليل</div>
             </blockquote>
           </div>
         </div>
@@ -475,20 +381,20 @@
         <div class="contact-box">
           <form class="form-grp" data-aos="fade-up">
             <h2 class="heading heading--2 margin-bottom">
-              Get in <span class="yellow">Touch</span>
+              تواصل معنا
             </h2>
 
-            <input type="text" class="form form__input" placeholder="Name" />
-            <input type="text" class="form form__input" placeholder="Email" />
-            <input type="text" class="form form__input" placeholder="Phone" />
+            <input type="text" class="form form__input" placeholder="الاسم" />
+            <input type="text" class="form form__input" placeholder="البريد الإلكتروني" />
+            <input type="text" class="form form__input" placeholder="الهاتف" />
             <textarea
               name="message"
               cols="5"
               rows="3"
               class="form form__input"
-              placeholder="Message"
+              placeholder="الرسالة"
             ></textarea>
-            <button class="btn btn__primary form-flex">Send &nbsp;</button>
+            <button class="btn btn__primary form-flex">إرسال &nbsp;</button>
           </form>
           <div id="mapid" data-aos="fade-up"></div>
         </div>
@@ -502,34 +408,39 @@
           <h2 class="margin-bottom"><span class="yellow">M</span>Fitness</h2>
 
           <ul class="contact-data">
-            <li class="location">100 Nallin Street, New Youk</li>
-            <li class="phone">+00 000 000 00</li>
-            <li class="email">MFitness@domine.com</li>
+            <li class="location">Cairo - Egypt</li>
+            <li class="phone">01020787538</li>
+            <li class="email">MFitness@gmail.com</li>
             <li class="social">
-              <img
-                src="./img/logo-whatsapp.svg"
-                alt="whatsapp icon"
-                width="35"
-                height="35"
-              />
+              <a href="https://wa.me/01020787538?text=Hello%2C%20I%20need%20more%20information%21" target="_blank">
+                <img
+                  src="./img/logo-whatsapp.svg"
+                  alt="واتساب"
+                  width="35"
+                  height="35"
+                />
+              </a>
+              
+             
 
               <img
                 src="./img/logo-facebook.svg"
-                alt="facebook icon"
+                alt="فيسبوك"
                 width="35"
                 height="35"
               />
 
               <img
                 src="./img/logo-instagram.svg"
-                alt="instagram icon"
+                alt="إنستغرام"
                 width="35"
                 height="35"
+                
               />
 
               <img
                 src="./img/logo-twitter.svg"
-                alt="twitter icon"
+                alt="تويتر"
                 width="35"
                 height="35"
               />
@@ -538,27 +449,26 @@
         </div>
 
         <nav class="footer-nav" aria-label="navigation">
-          <div class="nav-name">Quick Links</div>
+          <div class="nav-name">روابط سريعة</div>
           <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#courses">Courses</a></li>
-            <li><a href="#trainers">Trainers</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#home">الرئيسية</a></li>
+            <li><a href="#about">حول</a></li>
+            <li><a href="#courses">الدورات</a></li>
+            <li><a href="#trainers">المنتجات</a></li>
+            <li><a href="#contact">اتصل بنا</a></li>
           </ul>
         </nav>
 
         <div class="newsletter">
-          <div class="newsletter__title">News Letter</div>
+          <div class="newsletter__title">النشرة الإخبارية</div>
           <div class="newsletter__text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium,
-            nisi!
+            اشترك للحصول على آخر الأخبار والعروض الخاصة.
           </div>
           <form class="newsletter__input">
             <input type="text" class="form" placeholder="example@domine.com" />
             <img
               src="./img/send.svg"
-              alt="send icon"
+              alt="أيقونة إرسال"
               class="send-icon"
               width="36"
               height="36"
@@ -567,8 +477,8 @@
         </div>
 
         <div class="legel">
-          <p class="text">Copyright &copy; by Manoranjan&nbsp;</p>
-          <a href="https://github.com/Manoranjan-D/responsive-website-gym">
+          <p class="text">حقوق الطبع والنشر  من قبل &copy; Ahmed Anwer &nbsp;</p>
+          <a href="https://react-js-personal-portfolio-a2b3b6kb7-ahmedanwersabers-projects.vercel.app/">
             <img
               src="img/github.svg"
               alt="github"

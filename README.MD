@@ -8,4 +8,4 @@ MFitness reponsive webite build using HTML5, CSS3 and Javascript. The complete l
 
 ### Live Demo
 
-https://mfitness.netlify.app/
+

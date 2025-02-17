@@ -331,7 +331,7 @@ section:nth-child(even) {
       rgba(254, 239, 27, 0.3),
       rgba(254, 239, 27, 0.1)
     ),
-    url('../img/offer-img.jpg');
+    url('../img/8.jpeg');
   filter: brightness(1.1);
   background-position: center;
   background-size: cover;
